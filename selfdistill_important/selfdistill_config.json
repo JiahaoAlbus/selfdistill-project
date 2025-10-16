@@ -1,0 +1,10 @@
+{
+  "exp": "selfdistill",
+  "epochs": 30,
+  "batch_size": 128,
+  "lr": 0.01,
+  "alpha": 0.7,
+  "temperature": 2.0,
+  "teacher_ckpt": "runs/baseline/best.pt",
+  "seed": 42
+}

@@ -59,28 +59,6 @@
 |----------|-------------------|
 | ![Baseline Confmat](baseline_importance/baseline_confmat_best.png) | ![SelfDistill Confmat](selfdistill_important/selfdistill_confmat_best.png) |
 
----
-
-## 📂 项目结构
-selfdistill-project/
-├── baseline_importance/
-│   ├── baseline_config.json
-│   ├── baseline_confmat_best.png
-│   ├── baseline_curves_acc.png
-│   ├── baseline_curves_loss.png
-│   ├── baseline_history.csv
-│   └── train_log_baseline.txt
-├── selfdistill_important/
-│   ├── selfdistill_config.json
-│   ├── selfdistill_confmat_best.png
-│   ├── selfdistill_curves_acc.png
-│   ├── selfdistill_curves_loss.png
-│   ├── selfdistill_history.csv
-│   └── train_log_selfdistill.txt
-├── VSC图片/
-├── README.md
-└── train.py
-
 ## 📜 引用 / Citation
 @article{huang2025selfdistill,
 title={自蒸馏技术在小模型训练中的应用研究},

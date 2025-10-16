@@ -1,0 +1,10 @@
+{
+  "exp": "baseline",
+  "epochs": 30,
+  "batch_size": 128,
+  "lr": 0.01,
+  "alpha": 0.7,
+  "temperature": 2.0,
+  "teacher_ckpt": "",
+  "seed": 42
+}

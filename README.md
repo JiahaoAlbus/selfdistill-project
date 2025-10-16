@@ -51,13 +51,13 @@
 ![Baseline Loss](baseline_importance/baseline_curves_loss.png)
 
 ### 自蒸馏
-![SelfDistill Accuracy](selfdistill_importance/selfdistill_curves_acc.png)  
-![SelfDistill Loss](selfdistill_importance/selfdistill_curves_loss.png)
+![SelfDistill Accuracy](selfdistill_important/selfdistill_curves_acc.png)  
+![SelfDistill Loss](selfdistill_important/selfdistill_curves_loss.png)
 
 ### 混淆矩阵对比
 | Baseline | Self-Distillation |
 |----------|-------------------|
-| ![Baseline Confmat](baseline_importance/baseline_confmat_best.png) | ![SelfDistill Confmat](selfdistill_importance/selfdistill_confmat_best.png) |
+| ![Baseline Confmat](baseline_importance/baseline_confmat_best.png) | ![SelfDistill Confmat](selfdistill_important/selfdistill_confmat_best.png) |
 
 ---
 
@@ -70,7 +70,7 @@ selfdistill-project/
 │   ├── baseline_curves_loss.png
 │   ├── baseline_history.csv
 │   └── train_log_baseline.txt
-├── selfdistill_importance/
+├── selfdistill_important/
 │   ├── selfdistill_config.json
 │   ├── selfdistill_confmat_best.png
 │   ├── selfdistill_curves_acc.png
@@ -80,7 +80,6 @@ selfdistill-project/
 ├── VSC图片/
 ├── README.md
 └── train.py
----
 
 ## 📜 引用 / Citation
 @article{huang2025selfdistill,
